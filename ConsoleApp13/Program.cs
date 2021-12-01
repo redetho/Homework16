@@ -24,11 +24,11 @@ namespace ConsoleApp13
                 double ciof = classe.dolarCIOF();
                 double siof = classe.dolarSIOF();
                 Console.WriteLine();
-                Console.WriteLine("Valor a ser pago em reais: R$" + siof);
+                Console.WriteLine("Valor a ser pago em reais: R$" + (siof * 0.1));
                 Console.WriteLine();
                 Console.WriteLine("Valor a ser pago de IOF: " + IOF + "%");
                 Console.WriteLine();
-                Console.WriteLine("Valor da compra com IOF: R$" + ciof);
+                Console.WriteLine("Valor da compra com IOF: R$" + (ciof* 0.1));
                     }
 
 
